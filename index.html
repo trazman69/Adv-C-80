@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<script src="main.js"></script>
+        <title>
+            ADV-Project 80
+        </title>
+    </head>
+    
+    <body>
+        <h2 style="font-weight: bold; color:whitesmoke; text-align: center; text-decoration: underline; padding-bottom: 20px; font-size: 43px; font-family: 'Fredoka One', cursive;"> 
+            Paragraph Joiner
+        </h2>
+        
+        <div class="one" style="float: left;">
+        <h4 style="margin-left: 50px; font-family: fantasy; color: yellow; font-size: 22px; padding-bottom: 50px;"> Make paragraph 1 </h4>
+        
+       
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">1. </span>
+
+        <input style="padding: 10px;  color:mediumvioletred;" type="text" id="para1_input_box_1" placeholder="Input box 1">
+        <button onclick="clear1_1()"  class="clear"> <i class="fa fa-trash"></i> </button>
+
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">2. </span>
+
+        <input style="padding: 10px;  color:mediumvioletred;" type="text" id="para1_input_box_2" placeholder="Input box 2">
+        <button onclick="clear1_2()"  class="clear"> <i class="fa fa-trash"></i> </button>
+
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">3. </span>
+
+        <input style="padding: 10px;  color:mediumvioletred; " type="text" id="para1_input_box_3" placeholder="Input box 3">
+        <button onclick="clear1_3()"  class="clear"> <i class="fa fa-trash"></i> </button>
+
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">4. </span>
+        
+        <input style="padding: 10px;  color:mediumvioletred; " type="text" id="para1_input_box_4" placeholder="Input box 4">
+        <button onclick="clear1_4()"  class="clear"> <i class="fa fa-trash"></i> </button>
+
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">5. </span>
+
+        <input style="padding: 10px; color:mediumvioletred;" type="text" id="para1_input_box_5" placeholder="Input box 5">
+        <button onclick="clear1_5()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">6. </span>
+
+        <input style="padding: 10px;  color:mediumvioletred;" type="text" id="para1_input_box_6" placeholder="Input box 6">
+        <button onclick="clear1_6()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+  
+        <button class="btn btn-default" onclick="submit()" style="background-color: lightcoral; font-size: 18px; font-family: 'Akaya Telivigala', cursive; padding: 5px; margin-left: 20px; " type="button" id="para_1_btn">
+            Get paragraph 1
+        </button> 
+        <button type="reset" value="reset" class="btn btn-default" onclick="clear_1()" style="background-color: lightseagreen; font-size: 18px; font-family: 'Akaya Telivigala', cursive; padding: 5px; margin-left: 20px; " type="button" id="para_1_btn">
+    Clear all
+        </button> 
+    </div> 
+       
+
+   
+     <div style= "float: right;" class="two" >
+        <h4 style="margin-left: 50px; font-family: fantasy; color: yellow; font-size: 22px; padding-bottom: 50px;"> Make paragraph 2 </h4>
+       
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">1. </span>
+
+        <input style="padding: 10px; color:mediumvioletred;" type="text" id="para2_input_box_1" placeholder="Input box 1">
+        <button onclick="clear2_1()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">2. </span>
+
+        <input style="padding: 10px;color:mediumvioletred;" type="text" id="para2_input_box_2" placeholder="Input box 2">
+        <button onclick="clear2_2()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">3. </span>
+
+        <input style="padding: 10px;  color:mediumvioletred;" type="text" id="para2_input_box_3" placeholder="Input box 3">
+        <button onclick="clear2_3()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">4. </span>
+        
+        <input style="padding: 10px;  color:mediumvioletred;" type="text" id="para2_input_box_4" placeholder="Input box 4">
+        <button onclick="clear2_4()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">5. </span>
+
+        <input style="padding: 10px; color:mediumvioletred;" type="text" id="para2_input_box_5" placeholder="Input box 5">
+        <button onclick="clear2_5()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+
+        <span style="font-weight: bolder; font-family: 'Fjalla One', sans-serif; padding:5px; color:lime;">6. </span>
+
+        <input style="padding: 10px; color:mediumvioletred;" type="text" id="para2_input_box_6" placeholder="Input box 6">
+        <button onclick="clear2_6()"  class="clear"> <i class="fa fa-trash"></i> </button>
+        <br> <br> 
+       
+        <button class="btn btn-default" onclick="submit1()" style="background-color: lightcoral; font-size: 18px; font-family: 'Akaya Telivigala', cursive; padding: 5px; margin-left: 50px; " type="button" id="para_1_btn">
+            Get paragraph 2
+        </button>   
+        <button class="btn btn-default" onclick="clear_2()" style="background-color: lightseagreen; font-size: 18px; font-family: 'Akaya Telivigala', cursive; padding: 5px; margin-left: 20px; " type="button" id="para_1_btn">
+            Clear all
+                    </button>
+     </div>  
+    <br> <br> <br> <br> 
+
+     <div id="show_paragraph_1"  style=" text-align: center ;padding-right: 20px; padding-left: 20px; margin-top: 520px; padding-bottom: 20px; font-family: 'Lobster', cursive;">   </div>
+     <div id="show_paragraph_2"  style="text-align: center ;padding-right: 20px; padding-left: 20px; padding-bottom: 20px; font-family: 'Lobster', cursive;">   </div>
+     </body>
+   </html> 
